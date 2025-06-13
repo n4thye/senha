@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+:root{
+
+    --branco:white;
+    --cor-de-fundo: #00162e;
+    --fundo-senha: #00244d;
+    --fundo-texto: #001e40;
+    --borda: #2fff00;
+    --Caveat:'Caveat' monospace;
+}
+
+body{
+
+    color:var(--branco);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--Caveat);
+}
+
+.titulo-principal{
+    font-family: var(--Caveat);
+    font-size: 32px;
+}
+
+.titulo-secundario{
+    font-size: 24px;
+
+}
+
+.conteudo-titulo{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.conteudo-senha{
+
+    margin-top: 80px;
+    background: var(--fundo-senha);
+    padding: 24px;
+    border-bottom: 6px solid var(--borda);
+}
+
+#campo-senha{
+
+    background-color: var(--fundo-senha);
+    border: none;
+    color: var(--branco);
+    font-family: var(--Caveat);
+    font-size: 40px;
+    width: 70%;
+}
